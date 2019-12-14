@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+/*******************************my-center***************/
+.my-center {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*********************my-left****************/
+
+.info-btn {
+    color: red;
+}
+
+.my-left {
+    float: left;
+    position: absolute;
+}
+
+.page-type {
+    width: 150px;
+    background-color: rgb(228, 228, 228);
+}
+
+.page-type a{
+    padding: 15px 0 15px 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.page-things {
+    background-color: white;
+    width:  150px;
+}
+
+.page-things li {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.page-things li:hover {
+    color: red;
+}
+
+
+/**********************my-right-info**************/
+.my-right-info {
+    margin-left: 180px;
+    position: relative;
+    height: 500px;
+}
+
+/***********my-information************/
+
+.my-information {
+    background-color: white;
+}
+
+.my-information h4 {
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+}
+
+/***********my-detail******************/
+
+.my-detail {
+    background-color: white;
+    height: 500px;
+}
+
+.my-detail h3 {
+    padding: 20px 0 30px 30px;
+}
+
+.my-detail button{
+    color: white;
+    float: right;
+    background-color: rgb(168, 161, 160);
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 50px;
+    border: none;
+    border-radius: 5%;
+}
+
+
+.infolists {
+    font-size: 15px;
+}
+
+.infolist {
+    margin-top: 20px;
+}
+
+.subinfo-label {
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+    width: 120px;
+}
+
+.infolist span {
+    cursor: pointer;
+}
+
+.red-small {
+    color: red;
+    font-size: 12px;
+}
+
+.my-info-photo {
+    border-top: 1px solid rgb(209, 208, 208);
+}
+
+.my-info-photo img {
+    width: 100%;
+    cursor: pointer;
+}
+
+/***********************my-right-auction******/
+
+.my-right-auction {
+    position: relative;
+    margin-left: 180px;
+}
+
+
+.auction-info h4 {
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+}
+
+.person-auction {
+    background-color: white;
+}
+
+.person-auction>p>span {
+    font-size: 20px;
+}
+
+.person-auction p{
+    text-align: center;
+}
+
+.person-auction p span {
+    display: inline-block;
+    padding: 25px 50px  10px 10px;
+    cursor: pointer;
+}
+
+.person-auction p span:hover {
+    color: red;
+}
+
+.person-auction-ing {
+    border-top: 2px solid black;
+    height: 500px;
+}
+
+.person-auction-ed {
+    border-top: 2px solid black;
+    height: 500px;
+}
+
+.person-auction-edhave {
+    border-top: 2px solid black;
+    height: 500px;
+}
+
+/**********************my-acution-out***********/
+
+.my-auction-out {
+    position: relative;
+    margin-left: 180px;
+}
+
+
+.my-auction-out h4 {
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+}
+
+.my-out-detail {
+    height: 500px;
+    background-color: white;
+}
+
+/***********************my-right-news**********/
+.my-right-news {
+    position: relative;
+    margin-left: 180px;
+}
+
+
+.my-right-news h4{
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+}
+
+
+.my-right-news img {
+    width: 100% ;
+}
+
+/***********************my-right-attention****/
+.my-right-attention {
+    position: relative;
+    margin-left: 180px;
+}
+
+
+.my-right-attention h4{
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+}
+
+
+.my-right-attention img {
+    width: 100% ;
+}
+
+
+/***********************common****************/
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+
+    height: 0;
+    visibility: hidden;
+}
+
+.vanish {
+    display: none;
+}

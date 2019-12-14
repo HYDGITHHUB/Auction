@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 1550px;
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+/*************************header*********************/
+
+.header {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 10px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.home-page{
+    color: red;
+}
+
+.search input {
+    border: 1px solid black;
+}
+
+.munu {
+    display: flex;
+}
+
+
+.menu ul li{
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin: 0 30px;
+}
+
+.menu ul li a {
+    font-size: 20px;
+}
+
+.search {
+    width: 230px;
+    height: 22px;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    background-image: url(../jpg/searchbar.png);
+    padding:2px 0 2px 10px;
+    background-size: contain;
+}
+
+.login a{
+    font-weight: bold;
+}
+
+.home-page {
+	color :red;
+}
+/**********************center*****************/
+.center {
+    width: 80%;
+    margin: 0 auto;
+}
+/***************slide****************/
+.left-slide li {
+    list-style: none;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-slide {
+    width: 230px;
+    border: 2px solid red;
+    padding: 15px;
+    background-color: white;
+}
+
+.slide-type li {
+    margin: 5px;
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.slide-place li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+
+/*********center轮播图*************/
+.center-slide {
+    width: 600px;
+    margin: 30px 15px 0 15px;
+    position: relative;
+}
+
+.center-slide-list {
+    width: 600px;
+    position: relative;
+    padding: 0 ;
+}
+
+.center-slide-item {
+    list-style: none;
+}
+
+.center-slide img {
+    width: 100%;
+}
+
+.center-slide-item {
+    position: absolute;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.centen-slide-btn {
+    position: absolute;
+    z-index: 100;
+    color: rgb(161, 159, 159);
+    width: 50px;
+    height: 100px;
+    top: 130px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.centen-slide-btn p {
+    font-size: 50px;
+}
+
+#gopre {
+    left: 0 ;
+}
+
+#gonext {
+    right: 0 ;
+}
+
+.center-slide-item.center-active{
+    z-index: 10;
+    opacity: 1;
+}
+
+.center-pointlist {
+    z-index: 1000;
+    position: absolute;
+    padding-left: 0;
+    list-style: none;
+    bottom: 40px;
+    right: 40px;
+}
+
+.center-point {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(228, 57, 15, 0.158);
+    border-radius: 100%;
+    float: left;
+    margin-right: 14px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.center-point.center-active {
+    background-color: white;
+}
+
+/*********right-slide********/
+.right-slide li {
+    list-style: none;
+}
+
+
+.right-slide {
+    border: 2px solid red;
+}
+
+.proprety {
+    background-color: rgb(223, 83, 59);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.proprety a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.top-help {
+    background-color: white;
+}
+
+.top-help ul {
+    padding: 8px;
+}
+
+.top-help li {
+    list-style: none;
+    float: left;
+    margin: 15px 5px 5px 10px;
+}
+
+.top-relation {
+    background-color: white;
+    margin-top: 2px;
+}
+
+.top-relation ul {
+    padding: 8px;
+}
+
+.top-relation li{
+    list-style: none;
+    float: left;
+    margin: 15px 15px 10px 10px;
+    font-size: 15px;
+}
+
+.red-relation{
+    color: red;
+}
+
+.top-auction {
+    background-color: white;
+    margin-top: 2px;
+}
+
+.top-auction ul {
+    padding: 20px;
+}
+
+.top-auction li {
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.top-auction li a{
+    color: rgb(235, 70, 41);
+}
+
+/************assembly*************/
+.assembly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.assembly li {
+    list-style: none;
+}
+/********left-assembly*******/
+
+.index-meeting {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.img-meeting {
+    width: 600px;
+}
+
+.img-meeting img {
+    width: 100%;
+}
+
+.info-meeting {
+    margin: 10px;
+}
+
+.info-meeting h3 {
+    margin: 15px 0 0 5px;
+}
+
+.belong-style {
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.time-style {
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+.btn-meeting {
+    margin: 40px 10px 0 20px;
+}
+
+.btn-meeting a{
+    background-color: rgb(218, 3, 3);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.bottom-meeting p{
+    float: left;
+    font-size: 12px;
+    background-color: rgb(224, 224, 224);
+    padding: 3px;
+    margin-top: 25px;
+}
+/****right-assembly*****/
+.right-assembly {
+    width: 220px;
+    margin: 50px 0 0 50px;
+}
+
+.right-assembly img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/**********auction*************/
+.auction {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/******start-ing*******/
+
+.start-ing li {
+    list-style: none;
+}
+
+.auction-index {
+    width: 253px;
+    background-color: white;
+}
+
+.start-ing h2 {
+    margin: 5px 0;
+    float: left;
+    line-height: 40px;
+}
+
+.auction-items a{
+    float: right;
+    margin-top: 20px;
+    margin-right: 18px;
+}
+
+.auction-img {
+    width: 200px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.auction-img img {
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.auction-item p {
+    margin: 10px;
+    font-weight: 550;
+}
+
+.red-big-size {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.auction-money p {
+    float: left;
+    line-height: 20px;
+    margin: 5px 0 0 10px;
+}
+
+.auction-time {
+    margin: 5px 0 0 10px;
+}
+
+.auction-wrap li {
+    float: left;
+    margin-right: 20px;
+}
+
+.auction-idtfc{
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.auction-idtfc p{
+    float: left;
+    padding: 8px;
+    font-size: 13px;
+    margin: 0 8px;
+}
+
+.auction-idtfc > .red-normal-style {
+    background-color: rgb(228, 55, 55);
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+/******start-late*******/
+.start-late li {
+    list-style: none;
+}
+
+.auction-items-late h2{
+    float: left;
+    margin: 10px 0;
+}
+
+.auction-items-late a {
+    float: right;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+
+.auction-idtfc-late{
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.auction-idtfc-late p{
+    float: left;
+    padding: 8px;
+    font-size: 13px;
+    margin: 0 8px;
+}
+
+.auction-idtfc-late > .red-normal-style {
+    background-color: rgb(54, 224, 77);
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.start-late {
+    margin-bottom: 30px;
+}
+
+/**********************footer*****************/
+.helps {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 192, 192);
+}
+
+.footer ul {
+    margin: 15px 80px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.others {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+}
+
+.others li {
+    color: white;
+    float: left;
+    padding: 0;
+}
+
+/***********************common*****************/
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+
+    height: 0;
+    visibility: hidden;
+}
+
+.small-style {
+    font-size: 15px;
+    font-weight: 1;
+}

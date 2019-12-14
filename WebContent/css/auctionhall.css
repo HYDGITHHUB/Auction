@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+
+}
+
+body{
+    display: block;
+    min-width: 1200px;
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/************************hall-list*************************/
+
+.hall-list {
+    height: 200px;
+    width: 1200px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+/*************hall-list-character*************/
+.hall-list-character {
+    float: left;
+}
+
+.hall-list-character h2 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 30px 0 10px 20px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.hall-list-character h2:hover {
+    color: red;
+}
+
+.hall-list-character p {
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+#hall-lise-type {
+    padding: 5px;
+    color: white;
+    background-color: rgb(233, 177, 56);
+    display: inline-block;
+}
+
+/******************hall-list-img***************/
+
+.hall-list-img {
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin: 20px 0 0 200px;
+}
+
+.hall-list-img img {
+    width: 100%;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.hall-list-img p {
+    color: red;
+}
+
+.hall-list-search {
+    width: 160px;
+    height: 25px;
+    float: left;
+    margin: 20px 0 0 200px;
+}
+
+.hall-list-search input{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    padding-left: 30px;
+    background-image: url(../jpg/hall-search.png);
+    background-size: contain;
+    border: 1px solid black;
+}
+
+#hall-now {
+    width: 172px;
+    color: white;
+    padding: 6px;
+    background-color: rgb(228, 1, 1);
+    text-align: center;
+    margin-top: -8px;
+    /* border-right: 2px solid red; */
+}
+
+.hall-list-img .hall-img-end {
+    width: 172px;
+    padding: 6px;
+    background-color: rgb(39, 228, 1);
+    text-align: center;
+    margin-top: -8px;
+    color: white;
+}
+/********************hall-detail*******************************/
+.hall-detail {
+    width: 1200px;
+    height: 400px;
+    margin: 20px auto;
+}
+/*************.hall-detail-left*************/
+.hall-detail-left {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+
+.hall-detail-img {
+    width: 320px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+    float: left;
+}
+
+.hall-detail-img img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.hall-detail-img img:hover {
+    transform: scale(1.4);
+}
+
+.hall-detail-text {
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+.hall-detail-text {
+    margin: 20px 0 0 20px;
+}
+
+.hall-detail-time {
+    margin: 15px 0;
+}
+
+.hall-detail-money {
+    margin: 15px 0;
+}
+
+#hall-time-detail {
+    font-size: 25px;
+}
+
+#hall-money-detail {
+    font-size: 25px;
+    color: red;
+}
+
+.hall-detail-line {
+    margin: 25px 0 0 120px;
+}
+
+.hall-line-end {
+    display: inline-block;
+    padding: 10px 30px; 
+    background-color: rgb(1, 228, 103);
+    color: white;
+    border-radius: 5%;
+}
+
+.hall-detail-line a {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: rgb(228, 1, 1);
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.hall-line-add {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: rgb(228, 1, 1);
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.hall-detail-one p {
+    float: left;
+    margin-left: 15px;
+}
+
+.hall-detail-one {
+    margin-top: 20px;
+}
+
+.hall-detail-two p {
+    float: left;
+    margin-left: 15px;
+}
+
+.hall-detail-two {
+    margin-top: 5px;
+}
+
+.hall-detail-three {
+    margin: 28px 0 0 15px;
+}
+
+.hall-detail-four {
+    margin: 5px 0 0 15px;
+}
+
+.small-size {
+    font-weight: 200;
+    font-size: 13px;
+}
+
+/*************.hall-detail-right*************/
+
+.hall-detail-right {
+    width: 25%;
+    height: 100%;
+    float: right;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.hall-detail-right img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+/*********************hall-annotation*************************/
+.hall-annotation {
+    margin: 20px auto;
+    width: 1200px;
+    background-color: white;
+}
+ 
+.hall-annotation-header li{
+    float: left;
+    font-size: 20px;
+    margin: 20px 30px 20px 30px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.hall-annotation-header li:hover {
+    color: red;
+}
+
+.hall-annotation-header {
+    list-style: none;
+    padding-left: 50px;
+    border-bottom: 2px solid black;
+}
+
+.hall-annotation-hint {
+    color: red;
+}
+
+/************************h-a-h******************/
+.pai-remind-tip {
+    margin: 20px;
+    padding: 20px 50px 50px 50px;
+}
+
+
+/*************************h-a-a*****************/
+.tabDiv {
+    padding: 20px 50px 50px 50px;
+}
+
+.pai-title-text {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/**************************h-a-m****************/
+.detail-common-text {
+    padding: 20px 50px 50px 50px;
+}
+
+.pai-title {
+    padding-top: 20px;
+}
+
+
+/**************************h-a-i******************/
+
+.detail-common-text {
+    padding-left: 100px;
+}
+
+.detail-common-head {
+    padding-left: 50px;
+}
+
+
+/***************************h-a-r******************/
+.h-a-r {
+    height: 800px;
+}
+
+.addition-desc, .introduce-bid, .record-list {
+    margin: 0 40px;
+}
+
+.record-table {
+    width: 800px;
+    margin: 25px auto 2px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.record-table tr td, .record-table tr th {
+    text-align: center;
+    border-bottom: solid 1px #e9e9e9;
+    vertical-align: middle;
+    padding: 15px 0;
+    color: #848484;
+}
+
+table tr th {
+    text-align: center;
+    border-bottom: solid 1px #e9e9e9;
+    vertical-align: middle;
+    padding: 15px 0;
+    color: #848484;
+}
+
+
+/************************common*****************/
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+
+    height: 0;
+    visibility: hidden;
+}
+
+.vanish {
+    display: none !important;
+}

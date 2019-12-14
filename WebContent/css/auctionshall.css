@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    display: block;
+    min-width: 1200px;
+    background-color: rgb(238, 238, 238);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/**************************auctionshall-heard************/
+.auctionshall-heard {
+    width: 80%;
+    height: 250px;
+    margin: 30px auto;
+}
+/***************auctions-heard-img**************/
+.auctions-heard-img {
+    width: 750px;
+    height: 100%;
+    float: left;
+}
+
+.auctions-heard-img img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+/****************auctions-heard-detail***********/
+.auctions-heard-detail {
+    float: left;
+    width: 430px;
+    height: 100%;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.auctiosn-detail-green {
+    padding: 5px;
+    color: white;
+    background-color: rgb(7, 209, 7);
+    float: right;
+}
+
+.auctions-heard-detail h3 {
+    padding: 35px 0 0 35px;
+    font-weight: bolder;
+}
+
+.auctions-heard-detail > p {
+    margin: 10px 0 0 35px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.auctions-detail-time {
+    line-height: 60px;
+    font-size: 20px;
+    margin: 0 0 0 85px;
+    font-weight: 560;
+}
+
+.auctions-heard-detail li {
+    float: left;
+    margin: 20px 0 0 100px;
+    font-size: 15px;
+}
+
+.auctions-detail-num {
+    font-weight: 550;
+    font-size: 18px;
+    margin-left: 20px;
+}
+/*************************list*****************************/
+
+.auctions-count {
+    width: 80%;
+    height: 30px;
+    margin: 30px auto;
+}
+
+.auctions-count div:hover {
+    color: red;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.auctions-count-list {
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+    font-weight: bolder;
+    color: red;
+}
+
+.auctions-count-ancm {
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+
+/***************************auctions-list*****************/
+
+.auctions-list {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    height: 500px;
+
+}
+
+
+.auction-index {
+    width: 260px;
+    background-color: white;
+    margin: 20px 0 20px 22px;
+}
+
+.auction-img {
+    width: 200px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.auction-img img {
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.auction-item p {
+    margin: 10px;
+    font-weight: 550;
+}
+
+.red-big-size {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.auction-money p {
+    float: left;
+    line-height: 20px;
+    margin: 5px 0 0 10px;
+}
+
+.auction-time {
+    margin: 5px 0 0 10px;
+}
+
+.auction-wrap li {
+    float: left;
+    margin-right: 20px;
+}
+
+.auction-idtfc{
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.auction-idtfc p{
+    float: left;
+    padding: 8px;
+    font-size: 13px;
+    margin: 0 8px;
+}
+
+.auction-idtfc > .red-normal-style {
+    background-color: rgb(228, 55, 55);
+    color: white;
+    float: right;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+
+/***************************auction-ancm*******************/
+
+.hall-annotation {
+    margin: 20px auto;
+    width: 1200px;
+    background-color: white;
+}
+ 
+.hall-annotation-header li{
+    float: left;
+    font-size: 20px;
+    margin: 20px 30px 20px 30px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.hall-annotation-header li:hover {
+    color: red;
+}
+
+.hall-annotation-header {
+    list-style: none;
+    padding-left: 50px;
+    border-bottom: 2px solid black;
+}
+
+.hall-annotation-hint {
+    color: red;
+}
+
+/************************h-a-h******************/
+.pai-remind-tip {
+    margin: 20px;
+    padding: 20px 50px 50px 50px;
+}
+
+
+/*************************h-a-a*****************/
+.tabDiv {
+    padding: 20px 50px 50px 50px;
+}
+
+.pai-title-text {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/**************************h-a-m****************/
+.detail-common-text {
+    padding: 20px 50px 50px 50px;
+}
+
+.pai-title {
+    padding-top: 20px;
+}
+
+
+/**************************h-a-i******************/
+
+.detail-common-text {
+    padding-left: 100px;
+}
+
+.detail-common-head {
+    padding-left: 50px;
+}
+
+
+/***************************h-a-r******************/
+.h-a-r {
+    height: 800px;
+}
+
+.addition-desc, .introduce-bid, .record-list {
+    margin: 0 40px;
+}
+
+.record-table {
+    width: 800px;
+    margin: 25px auto 2px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.record-table tr td, .record-table tr th {
+    text-align: center;
+    border-bottom: solid 1px #e9e9e9;
+    vertical-align: middle;
+    padding: 15px 0;
+    color: #848484;
+}
+
+table tr th {
+    text-align: center;
+    border-bottom: solid 1px #e9e9e9;
+    vertical-align: middle;
+    padding: 15px 0;
+    color: #848484;
+}
+
+
+
+/***************************common**************************/
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+
+    height: 0;
+    visibility: hidden;
+}
+
+.vanish {
+    display: none;
+}
