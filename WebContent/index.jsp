@@ -158,8 +158,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <p class="belong-style">拍卖公司：金诺国际拍卖有限公司</p>
                             <p class="time-style">2019年10月10日&nbsp;09:00开始</p>
                             <div class="btn-meeting">
-                                <a href="#">标的目录</a>
-                                <a href="auctionshall.jsp">拍卖大厅</a>
+                                <a  href="list.do" target="_blank">标的目录</a>
+                                <a href="auctionshall.jsp" target="_blank">拍卖大厅</a>
                             </div>
                             <div class="bottom-meeting clearfix">
                                 <p>浏览次数：66&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -176,8 +176,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <p class="belong-style">拍卖公司：山东正信拍卖有限公司</p>
                             <p class="time-style">2019年10月10日&nbsp;13:00开始</p>
                             <div class="btn-meeting">
-                                <a href="#">标的目录</a>
-                                <a href="auctionshall.jsp">拍卖大厅</a>
+                                <a  href="list.do" target="_blank">标的目录</a>
+                                <a href="auctionshall.jsp" target="_blank">拍卖大厅</a>
                             </div>
                             <div class="bottom-meeting clearfix">
                                 <p>浏览次数：56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -194,8 +194,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <p class="belong-style">拍卖公司：黑龙江贯通拍卖有限公司</p>
                             <p class="time-style">2019年10月10日&nbsp;15:00开始</p>
                             <div class="btn-meeting">
-                                <a href="#">标的目录</a>
-                                <a href="auctionshall.jsp">拍卖大厅</a>
+                                <a  href="list.do" target="_blank">标的目录</a>
+                                <a href="auctionshall.jsp" target="_blank">拍卖大厅</a>
                             </div>
                             <div class="bottom-meeting clearfix">
                                 <p>浏览次数：89&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -212,8 +212,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <p class="belong-style">拍卖公司：江苏网易拍卖有限公司</p>
                             <p class="time-style">2019年10月10日&nbsp;19:00开始</p>
                             <div class="btn-meeting">
-                                <a href="#">标的目录</a>
-                                <a href="auctionshall.jsp">拍卖大厅</a>
+                                <a target="_blank" class="button"  value="返回拍卖首页 "
+								name="settingsubmit" onclick="location = 'list.do';">标的目录</a>
+                                <a href="auctionshall.jsp" target="_blank">拍卖大厅</a>
                             </div>
                             <div class="bottom-meeting clearfix">
                                 <p>浏览次数：65&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -237,10 +238,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <ul class="auction-wrap clearfix">
                     <li class="auction-index">
                         <div class="auction-img">
-                            <a href="auctionhall.jsp"><img src="jpg/auction-land.png" alt="auction-land"></a>
+                            <a href="auctionhall.jsp" target="_blank"><img src="jpg/auction-land.png" alt="auction-land"></a>
                         </div>
                         <div class="auction-item">
-                            <p><a href="auctionhall.jsp">德宝村14号标17.82亩土地</a></p>
+                            <p><a href="auctionhall.jsp" target="_blank">德宝村14号标17.82亩土地</a></p>
                         </div>
                         <div class="auction-money clearfix">
                             <p>当前价:</p>
@@ -256,10 +257,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     </li>
                     <li class="auction-index">
                         <div class="auction-img">
-                            <a href="auctionhall.jsp"><img src="jpg/auction-company.png" alt="auction-land"></a>
+                            <a href="auctionhall.jsp" target="_blank"><img src="jpg/auction-company.png" alt="auction-land"></a>
                         </div>
                         <div class="auction-item">
-                            <p><a href="auctionhall.jsp">塔城南岗建材有限公司破产财产</a></p>
+                            <p><a href="auctionhall.jsp" target="_blank">塔城南岗建材有限公司破产财产</a></p>
                         </div>
                         <div class="auction-money clearfix">
                             <p>当前价:</p>

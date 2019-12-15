@@ -127,7 +127,7 @@
 						<br />
 						<center>
 							<input class="button" type="button" value="返回拍卖首页 "
-								name="settingsubmit" onclick="location = 'list.do';">
+								name="settingsubmit" onclick="location = 'index.jsp';">
 							<input class="button" type="button" value="全部取消购买 "
 								name="settingsubmit"
 								onclick="location = 'clear.do';">

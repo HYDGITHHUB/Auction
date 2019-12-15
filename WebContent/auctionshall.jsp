@@ -50,10 +50,10 @@
                         <ul class="auction-wrap clearfix">
                                 <li class="auction-index">
                                         <div class="auction-img">
-                                                <a href="#"><img src="jpg/auction-land.png" alt="auction-land"></a>
+                                                <a href="auctionhall.jsp" target="_blank"><img src="jpg/auction-land.png" alt="auction-land"></a>
                                         </div>
                                         <div class="auction-item">
-                                                <p><a href="#">德宝村14号标17.82亩土地</a></p>
+                                                <p><a href="auctionhall.jsp" target="_blank" >德宝村14号标17.82亩土地</a></p>
                                         </div>
                                         <div class="auction-money clearfix">
                                                 <p>当前价:</p>
@@ -69,10 +69,10 @@
                                 </li>
                                 <li class="auction-index">
                                         <div class="auction-img">
-                                                <a href="#"><img src="jpg/auction-company.png" alt="auction-land"></a>
+                                                <a href="auctionhall.jsp" target="_blank"><img src="jpg/auction-company.png" alt="auction-land"></a>
                                         </div>
                                         <div class="auction-item">
-                                                <p><a href="#">塔城南岗建材有限公司破产财产</a></p>
+                                                <p><a href="auctionhall.jsp" target="_blank">塔城南岗建材有限公司破产财产</a></p>
                                         </div>
                                         <div class="auction-money clearfix">
                                                 <p>当前价:</p>
@@ -88,10 +88,10 @@
                                 </li>
                                 <li class="auction-index">
                                         <div class="auction-img">
-                                                <a href="#"><img src="jpg/auction-car.png" alt="auction-land"></a>
+                                                <a href="auctionhall.jsp" target="_blank"><img src="jpg/auction-car.png" alt="auction-land"></a>
                                         </div>
                                         <div class="auction-item">
-                                                <p><a href="#">大众帕萨特小型轿车-辽NML883</a></p>
+                                                <p><a href="auctionhall.jsp" target="_blank">大众帕萨特小型轿车-辽NML883</a></p>
                                         </div>
                                         <div class="auction-money clearfix">
                                                 <p>当前价:</p>
