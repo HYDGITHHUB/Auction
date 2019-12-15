@@ -107,7 +107,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <h4>我的出售</h4>
             </div>
             <div class="my-out-detail">
-	<jsp:include page="index.jsp" />
+	        <jsp:include page="index.jsp" />
             </div>
         </div>
         <div class="my-right-news vanish">
