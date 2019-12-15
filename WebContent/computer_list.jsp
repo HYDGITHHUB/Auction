@@ -18,7 +18,7 @@
 								<tr>
 									<td>
 										<a href='#'>主页</a>&nbsp;/&nbsp;
-										<a href='#'>笔记本订购(WEB007)</a>&nbsp;/&nbsp;商品列表
+										<a href='#'>商品购买</a>&nbsp;/&nbsp;商品列表
 									</td>
 								</tr>
 							</tbody>
@@ -30,17 +30,17 @@
 							<tbody>
 								<tr class="header">
 									<td class="altbg1" width="15%">
-										<b>型号</B>
+										<b>商品</B>
 									</td>
 									<td class="altbg1" width="20%">
-										<b>产品图片</b>
+										<b>商品图片</b>
 									</td>
 									<td class="altbg1" width="30%">
-										<b>产品说明</b>
+										<b>商品说明</b>
 									</td>
 
 									<td class="altbg1" width="10%">
-										<b>产品报价</b>
+										<b>商品价格</b>
 									</td>
 									<td class="altbg1">&quot;
 									</td>
@@ -85,8 +85,8 @@
 						</table>
 						<br />
 						<center>
-							<input class="button" type="button" value="查看购物车"
-								name="settingsubmit" onclick="location='cart.jsp';">
+							<input class="button" type="button" value="查看我的买入"
+								name="settingsubmit" onclick="location='mysale.jsp';">
 						</center>
 					</td>
 				</tr>

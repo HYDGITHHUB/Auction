@@ -91,13 +91,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         <span class="person-edhave">已拍下</span>
                     </p>
                     <div class="person-auction-ing">
-                        ing
+                        	<jsp:include page="cart.jsp" />
                     </div>
                     <div class="person-auction-ed vanish">
-                        ed
+                        <jsp:include page="cart.jsp" />
                     </div>
                     <div class="person-auction-edhave vanish">
-                        edhave
+                        <jsp:include page="cart.jsp" />
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <h4>我的出售</h4>
             </div>
             <div class="my-out-detail">
-					<jsp:include page="auction.jsp" />
+	<jsp:include page="index.jsp" />
             </div>
         </div>
         <div class="my-right-news vanish">

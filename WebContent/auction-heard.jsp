@@ -36,7 +36,7 @@
 			<%
 				} else {
 			%>
-				<div id="mess" style="color:red; margin-bottom:3px; margin-right:15px">你好<%= session.getAttribute("login") %></div>
+				<div id="mess" style="color:black; margin-bottom:3px; margin-right:15px">你好  <%= session.getAttribute("login") %></div>
 				<a href="doLogout.jsp" style = "margin-right:15px">退出登录</a>
 			<%
 				}

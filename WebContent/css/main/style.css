@@ -9,6 +9,11 @@ body,td {
 	font: 11px Arial, Helvetica, sans-serif;
 }
 
+tr {
+	padding:0 px;
+	margin: 0 px;
+}
+
 html,body {
 	scrollbar-face-color: #15A3D9;
 	scrollbar-highlight-color: #555555;
@@ -58,12 +63,7 @@ a:hover {
 
 /* ====================================================== */
 	/* ===========logo============== */
-.logo {
-	width: 168px;
-	height: 50px;
-	padding-top: 10px;
-	padding-left: 5px;
-}
+
 
 .logoimg {
 	display: block;
@@ -250,7 +250,7 @@ td.altbg2,.altbg2 td {
 }
 
 
-.header td {
+.header-cart td {
 	background: url(bg_list.gif) repeat-x;
 	line-height: 16px;
 	height: 31px !important; >
@@ -273,7 +273,7 @@ td.altbg2,.altbg2 td {
 	padding: 2px;
 }
 
-.header a {
+.header-cart a {
 	color: #FFFFFF;
 }
 

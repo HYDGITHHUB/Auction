@@ -112,7 +112,7 @@ window.onload = function () {
         // var newsecond = (parseInt((newtime - snow) / 1000)) % 60;
 
 
-        var newtime = new Date('2019/12/14 22:07:00');
+        var newtime = new Date('2019/12/15 11:58:00');
         var newsecond = Math.floor((newtime-snow)/1000);//未来时间距离现在的秒数
         var newhour =Math.floor(newsecond / 3600);//整数部分代表小时；
         newsecond =newsecond % 86400;//余数代表剩下的秒数；
@@ -130,7 +130,7 @@ window.onload = function () {
         halltime.innerHTML = all_last_time;
 
         //时间结束停止加价
-        var counttime = newhour + 60*newminut + 3600*newsecond;
+        var counttime = parseInt(newhour) + parseInt(newminut) + parseInt(newsecond);
         var hallend = document.querySelector('.hall-line-end.vanish');
         var hallnow = document.querySelector('.hall-now');
         var hallhend = document.querySelector('.hall-img-end.vanish');
@@ -142,6 +142,7 @@ window.onload = function () {
             hallnow.className = 'hall-now vanish';
             hallhend.className = 'hall-img-end';
             clearInterval(endSale);
+            alert("恭喜你获得该商品！");
         }
     }
     this.endSale = setInterval(lasttime, 1000);

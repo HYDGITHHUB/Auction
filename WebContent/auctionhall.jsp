@@ -1,3 +1,6 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +68,7 @@
                                                 </li>
                                         </ul>
                                         <div class="hall-detail-line clearfix">
-                                                <a  class="hall-line-apply">报名</a>
+                                                <a  class="hall-line-apply"  >报名</a>
                                                 <p class="hall-line-add vanish">加价 </p>
                                                 <p class="hall-line-end vanish">已结束</p>
                                         </div>

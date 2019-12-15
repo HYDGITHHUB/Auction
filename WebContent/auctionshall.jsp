@@ -1,3 +1,7 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +41,8 @@
                 </div>
         </div>
         <div class="auctions-count clearfix">
-                <div class="auctions-count-list">标的列表</div>
+                <div class="auctions-count-list" value="返回拍卖首页 "
+								name="settingsubmit" onclick="location = 'list.do';" target="_blank">标的列表</div>
                 <div class="auctions-count-ancm">拍卖公告</div>
         </div>
         <div class="auctions-list">

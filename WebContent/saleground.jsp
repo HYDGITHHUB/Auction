@@ -174,7 +174,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <p class="time-style">2019年10月10日&nbsp;09:00开始</p>
                             <div class="btn-meeting">
                                 <a href="#">标的目录</a>
-                                <a href="#">拍卖大厅</a>
+                                <a href="auctionshall.jsp">拍卖大厅</a>
                             </div>
                             <div class="bottom-meeting clearfix">
                                 <p>浏览次数：66&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -192,7 +192,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                 <p class="time-style">2019年10月10日&nbsp;13:00开始</p>
                                 <div class="btn-meeting">
                                     <a href="#">标的目录</a>
-                                   <a href="#">拍卖大厅</a>
+                                   <a href="auctionshall.jsp">拍卖大厅</a>
                                 </div>
                                 <div class="bottom-meeting clearfix">
                                     <p>浏览次数：56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>

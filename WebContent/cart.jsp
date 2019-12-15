@@ -36,30 +36,22 @@
 					<td>
 						<table class="guide" cellSpacing="0" cellPadding="0" width="100%"
 							border="0">
-							<tbody>
-								<tr>
-									<td>
-										<a href='#'>主页</a>&nbsp;/&nbsp;
-										<a href='computer_list.html'>
-										笔记本订购(WEB007)</a>&nbsp;/&nbsp;购物车信息
-									</td>
-								</tr>
-							</tbody>
+
 						</table>
 						<br />
 
 						<table class="tableborder" cellSpacing="0" cellPadding="0"
 							width="100%" border="0">
 							<tbody>
-								<tr class="header">
+								<tr class="header-cart" style = "margin: 0 ; padding: 0 ; "">
 									<td class="altbg2" colspan="6">
-										购物车信息
+										已参拍信息
 									</td>
 								</tr>
 							<tbody>
 								<tr>
 									<td class="altbg1" width="20%">
-										<b>型号</b>
+										<b>物品</b>
 									</td>
 									<td class="altbg1" width="20%">
 										<b>价格</b>
@@ -134,9 +126,9 @@
 
 						<br />
 						<center>
-							<input class="button" type="button" value="返回商品列表"
+							<input class="button" type="button" value="返回拍卖首页 "
 								name="settingsubmit" onclick="location = 'list.do';">
-							<input class="button" type="button" value="清空购物车"
+							<input class="button" type="button" value="全部取消购买 "
 								name="settingsubmit"
 								onclick="location = 'clear.do';">
 						</center>
@@ -144,7 +136,9 @@
 				</tr>
 			</tbody>
 		</table>
+		
 	</body>
+<link rel="stylesheet" href="css/heard-footer.css">
 </html>
 
 
