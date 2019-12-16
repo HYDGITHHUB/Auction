@@ -69,9 +69,9 @@ public class deleteServlet extends HttpServlet {
 		if(i>0){
 			List<Booking> listrm=rms.findAll();
 			request.getSession().setAttribute("list", listrm);
-			out.print("<script>alert('删除成功！！！');location.href='index.jsp';</script>");
+			out.print("<script>alert('删除成功！！！');location.href='mysale.jsp';</script>");
 		}else{
-			out.print("<script>alert('删除失败！！！');location.href='index.jsp';</script>");
+			out.print("<script>alert('删除失败！！！');location.href='mysale.jsp';</script>");
 		}
 		
 		out.flush();
