@@ -1,9 +1,10 @@
 /bean/
 /com/
+/commons-beanutils-1.9.3.jar
+/commons-digester-2.1.jar
 /dao/
 /entity/
 /servlet/
 /test/
 /util/
 /web/
-/selectServlet1/
