@@ -112,7 +112,7 @@ window.onload = function () {
         // var newsecond = (parseInt((newtime - snow) / 1000)) % 60;
 
 
-        var newtime = new Date('2019/12/15 11:58:00');
+        var newtime = new Date('2019/12/16 13:09:00');
         var newsecond = Math.floor((newtime-snow)/1000);//未来时间距离现在的秒数
         var newhour =Math.floor(newsecond / 3600);//整数部分代表小时；
         newsecond =newsecond % 86400;//余数代表剩下的秒数；
