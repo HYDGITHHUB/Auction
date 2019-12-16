@@ -14,9 +14,9 @@ public class BaseDao2 {
 	 *
 	 */
 		private String driver ="com.mysql.jdbc.Driver";
-		private String url="jdbc:mysql://localhost:3306/auction?characterEncoding=utf-8";
+		private String url="jdbc:mysql://localhost:3306/ebookentry?characterEncoding=utf-8";
 		private String name="root";
-		private String pwd="root";
+		private String pwd="";
 	      Connection conn=null;
 	     
 	      /***
