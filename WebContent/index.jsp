@@ -139,8 +139,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 </div>
                 <div class="top-auction">
                     <ul>
-                        <li><a href="#">资产拍卖登记</a></li>
-                        <li><a href="#">物品估值</a></li>
+                        <li><a href="asset.html">资产拍卖登记</a></li>
+                        <li><a href="house.html">物品估值</a></li>
                     </ul>
                 </div>
             </div>

@@ -17,7 +17,7 @@
 							<tbody>
 								<tr>
 									<td>
-										<a href='#'>主页</a>&nbsp;/&nbsp;
+										<a href="auctionshall.jsp">主页</a>&nbsp;/&nbsp;
 										<a href='#'>商品购买</a>&nbsp;/&nbsp;商品列表
 									</td>
 								</tr>

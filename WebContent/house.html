@@ -1,0 +1,347 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>房屋估值系统</title>
+    <link rel="shortcut icon" href="jpg/head.jpg">
+    <link rel="stylesheet" href="css\house.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="jpg/headpicture.png" alt="logo"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">首页</a>
+                <li><a href="#">标的</a>
+                <li><a href="#">拍卖会</a>
+                <li><a href="#">拍卖流程</a>
+                <li><a href="#">我的拍卖</a>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="搜索标的">
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="real_wz">首页&nbsp; > &nbsp;房产估值</div>
+        <h1 class="title">房屋估值</h1>
+        <div class="real_content">
+            <p class="basic_xinx"><em>*</em> 基础信息</p>
+            <div class="row">
+                <div class="region_box">
+                    <div class="input_box" style="margin-left: 22px;">
+                        <label>省：</label>
+                        <div class="filter-box">
+                            <div class="filter-text">
+                                <input type="text" name="" class="Verification" id="province_input" 
+                                    placeholder="请输入省">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input_box">，
+                        <label>市：</label>
+                        <div class="filter-box">
+                            <div class="filter-text">
+                                <input type="text" name="" class="Verification" id="city_input" 
+                                    placeholder="请输入市">
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="input_box" style="margin-right:0;">
+                        <label>区：</label>
+                        <div class="filter-box">
+                            <div class="filter-text">
+                                <input type="text" name="" class="Verification" id="district_input" 
+                                    placeholder="请输入区">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            
+            <div class="row">
+                <div class="input_box">
+                    <label> 房屋类型<em>(必填)</em></label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" name="" class="Verification" id="House_type" readonly
+                                placeholder="请选择房屋类型">
+                        </div>
+                        <ul class="list_box House_list equal">
+                            <li><a href="javascript:;">住宅</a></li>
+                            <li><a href="javascript:;">商业</a></li>
+                            <li><a href="javascript:;">办公</a></li>
+                            <li><a href="javascript:;">工业</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box" style="width:100%;">
+                    <label> 小区/地址<em>(必填)</em></label>
+                    <div class="filter-box" style="width: 75%;">
+                        <div class="filter-text">
+                            <input type="text" name="" class="Verification" id="address" placeholder="请输入小区/地址">
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box" style="width:100%;">
+                    <label> 楼栋名称<em>(必填)</em></label>
+                    <div class="filter-box" style="width: 75%;">
+                        <div class="filter-text">
+                            <input type="text" class="Verification" name="" id="building" placeholder="请输入楼栋名称">
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box" style="width:100%;">
+                    <label> 单元名称<em>(必填)</em></label>
+                    <div class="filter-box" style="width: 75%;">
+                        <div class="filter-text">
+                            <input type="text" class="Verification" name="" id="element" placeholder="请输入单元名称">
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box" style="width:100%;">
+                    <label> 户号<em>(必填)</em></label>
+                    <div class="filter-box" style="width: 75%;">
+                        <div class="filter-text">
+                            <input type="text" class="Verification" name="" id="neea" placeholder="请输入户号">
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box">
+                    <label> 楼层<em>(必填)</em></label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" class="Verification" name="" id="floor" placeholder="请输入楼层">
+                        </div>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <label> 总楼层 <em>(必填)</em></label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" class="Verification" name="" id="all_floor" placeholder="请输入总楼层">
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box">
+                    <label style="line-height: 32px;">建筑年份</label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" name="" id="year_built" placeholder="请输入年份">
+                        </div>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <label style="line-height: 32px;">建筑类型</label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" name="" id="building_category" readonly placeholder="请选择建筑类型">
+                            <i class="icon icon-filter-arrow"></i>
+                        </div>
+                        <ul class="list_box bucategory_list equal">
+                            <li><a href="javascript:;">平房</a></li>
+                            <li><a href="javascript:;">板楼</a></li>
+                            <li><a href="javascript:;">塔楼</a></li>
+                            <li><a href="javascript:;">板塔结合</a></li>
+                            <li><a href="javascript:;">别墅</a></li>
+                            <li><a href="javascript:;">独栋别墅</a></li>
+                            <li><a href="javascript:;">联排别墅</a></li>
+                            <li><a href="javascript:;">叠拼别墅</a></li>
+                            <li><a href="javascript:;">双拼别墅</a></li>
+                            <li><a href="javascript:;">四合院</a></li>
+                            <li><a href="javascript:;">洋房</a></li>
+                            <li><a href="javascript:;">未知</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box">
+                    <label style="line-height: 32px;">朝向</label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" name="" id="orientation" placeholder="请选择朝向">
+                        </div>
+                        <ul class="list_box orientation_list equal">
+                            <li><a href="javascript:;">北</a></li>
+                            <li><a href="javascript:;">东</a></li>
+                            <li><a href="javascript:;">东北</a></li>
+                            <li><a href="javascript:;">东南</a></li>
+                            <li><a href="javascript:;">东西</a></li>
+                            <li><a href="javascript:;">南</a></li>
+                            <li><a href="javascript:;">南北</a></li>
+                            <li><a href="javascript:;">西</a></li>
+                            <li><a href="javascript:;">西北</a></li>
+                            <li><a href="javascript:;">西南</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <label style="line-height: 32px;">建筑形式</label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" name="" id="building_shape" readonly placeholder="请选择建筑形式">                           
+                        </div>
+                        <ul class="list_box bushape_list equal">
+                            <li><a href="javascript:;">超高层</a></li>
+                            <li><a href="javascript:;">高层</a></li>
+                            <li><a href="javascript:;">中高层</a></li>
+                            <li><a href="javascript:;">多层</a></li>
+                            <li><a href="javascript:;">低层</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box">
+                    <label> 面积<em>(必填)</em></label>
+                    <div class="filter-box" style="position: relative;">
+                        <div class="filter-text" style="float: left;">
+                            <input type="text" class="Verification" name="" id="area" placeholder="请输入面积">
+                        </div>
+                        <em style="font-size: 14px;position: absolute;right: -37%;top: 26%;">平方米</em>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <label style="line-height: 32px;">户型结构</label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" name="" id="family_structure" placeholder="请选择户型结构">
+                        </div>
+                        <ul class="list_box famstructure_list equal">
+                            <li><a href="javascript:;">冷山</a></li>
+                            <li><a href="javascript:;">平面</a></li>
+                            <li><a href="javascript:;">跃层</a></li>
+                            <li><a href="javascript:;">错层</a></li>
+                            <li><a href="javascript:;">复式</a></li>
+                            <li><a href="javascript:;">顶层纯阁楼</a></li>
+                            <li><a href="javascript:;">顶层附带阁楼</a></li>
+                            <li><a href="javascript:;">全地下室</a></li>
+                            <li><a href="javascript:;">半地下室</a></li>
+                            <li><a href="javascript:;">地层带花园</a></li>
+                            <li><a href="javascript:;">其他</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box">
+                    <label style="line-height: 32px;">装修</label>
+                    <div class="filter-box">
+                        <div class="filter-text">
+                            <input type="text" name="" id="finish" readonly placeholder="请选择装修">                          
+                        </div>
+                        <ul class="list_box finish_list equal">
+                            <li><a href="javascript:;">毛坯</a></li>
+                            <li><a href="javascript:;">简装</a></li>
+                            <li><a href="javascript:;">精装</a></li>
+                            <li><a href="javascript:;">高档</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="input_box">
+                        <label style="line-height: 32px;">户型</label>
+                        <div class="filter-box">
+                            <div class="filter-text">
+                                <input type="text" name="" id="house" readonly placeholder="请选择户型结构">
+                            </div>
+                            <ul class="list_box house_list equal">
+                                <li><a href="javascript:;">开间</a></li>
+                                <li><a href="javascript:;">一室一厅</a></li>
+                                <li><a href="javascript:;">两室一厅</a></li>
+                                <li><a href="javascript:;">三室一厅</a></li>
+                                <li><a href="javascript:;">四室以上</a></li>
+                                <li><a href="javascript:;">其他</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box">
+                    <label> 联系人<em>(必填)</em></label>
+                    <div class="filter-box">
+                        <div class="filter-text" style="float: left;">
+                            <input type="text" class="Verification" name="" id="linkman">
+                        </div>
+                    </div>
+                </div>
+                <div class="input_box">
+                        <label> 联系人手机 <em>(必填)</em></label>
+                        <div class="filter-box">
+                            <div class="filter-text" style="float: left;">
+                                <input type="text" class="Verification" name="" id="phone_num">
+                                <span class="error">联系人手机不能为空</span>
+                            </div>
+                        </div>
+                    </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                    <div class="input_box" style="width: 100%">
+                        <label style="line-height: 32px;">备注：</label>
+                        <div class="filter-box" style="width:50%;">
+                            <div class="filter-text" style="float: left;">
+                                <input type="text" name="" id="remark">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfloat"></div>
+            </div>
+            <div class="row">
+                <div class="input_box" style="width:100%;">
+                    <label> 手机验证码 <em>(必填)</em></label>
+                    <div class="filter-box">
+                        <div class="filter-text" style="width:80%;float: left;border: none;padding-left: 0">
+                            <input type="text" class="Verification" name="" id="linkman_num">
+                            <button class="yanzm">发送验证码</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+            <div class="line"></div>
+            <button id="go">去估价</button>   
+        </div>
+
+        
+    </div>
+    
+    </div>
+</body>
+<script src="js/house1.js"></script>
+<script src="js/house2.js"></script>
+
+</html>

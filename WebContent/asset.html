@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>拍卖行</title>
+    <link rel="stylesheet" href="css\asset.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="jpg/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">首页</a>
+                <li><a href="#">标的</a>
+                <li><a href="#">拍卖会</a>
+                <li><a href="#">拍卖流程</a>
+                <li><a href="#">我的拍卖</a>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="搜索标的">
+        </div>
+        <div class="login">
+            <button><a href="#">登录</a><tton>
+            <button><a href="#">注册</a><tton>
+        </div>
+    </div>
+
+
+    
+    <div class="au-title-img">资产拍卖登记</div>
+
+    <div class="au-content pb40">
+        <p class="au-title pl40">基础信息</p>
+        <p class="au-title2 pl40">资产类别</p>
+        <p class="pl40"><select class="au-select1" id="asset-type"></select></p>
+        <p class="au-title2 pl40">资产所在地</p>
+        <p class="pl40"><select class="au-select1 mr40" id="asset-province"></select><select class="au-select1" id="asset-city"><option>请选择市区</option></select></p>
+        <p class="au-title2 pl40">卖家所在地</p>
+        <p class="pl40"><select class="au-select1 mr40" id="person-province"></select><select class="au-select1" id="person-city"><option>请选择市区</option></select></p>
+        <p class="au-title2 pl40">资产描述</p>
+        <p class="pl40"><textarea class="au-textarea" id="asset-text" placeholder="描述一下资产相关信息"></textarea></p>
+        
+    </div>
+    <div class="au-content mt40 pb40 mb40">
+        <p class="au-title pl40">联系方式</p>
+        <p class="au-title2 pl40">卖家姓名</p>
+        <p class="pl40"><input class="au-input" placeholder="卖家姓名" id="person-name" /></p>
+        <p class="au-title2 pl40">联系电话</p>
+        <p class="pl40"><input name="linkTel" class="au-input" placeholder="输入手机号码" id="person-number" maxlength="11" /></p>
+        <p class="au-title2 pl40">验证码</p>
+        <p class="pl40 pr"><input class="au-input" name="picCha" placeholder="输入验证码" id="person-sure" /></p>
+        <p class="au-title2 pl40">输入短信验证码</p>
+        <p class="pl40 pr">
+            <input class="au-input" name="picCha" placeholder="输入短信验证码" id="J-person-sure-mobile" />
+            <a class="au-get-yam2 J-au-get-yam2">获取短信验证码</a>
+        </p>
+        <p class="pl40 au-hasSelect mt40 mb40" id="au-hasSelect" style="width:280px">所填写的资产信息真实准确，且有<span>真实处置意愿</span></p>
+        <p class="pl40"><a class="au-submit-btn J-submit-btn active">提交</a></p>
+    </div>
+    <p class="au-errer"></p>
+    <div class="au-alert-box dis-none J-alert-box">
+    </div>
+    
+
+    <div class="footer">
+        <div class="helps">
+            <div class="help clearfix">
+                <ul>
+                    <h3>竞买人帮助</h3>
+                    <li><a href="#">竞拍流程</a></li>
+                    <li><a href="#">出价规则</a></li>
+                    <li><a href="#">延时规则</a></li>
+                </ul>
+            </div>
+            <div class="help">
+                <ul>
+                    <h3>支付帮助</h3>
+                    <li><a href="#">如何报名交保证金</a></li>
+                    <li><a href="#">交保遇到限额</a></li>
+                    <li><a href="#">尾款如何支付</a></li>
+                </ul>
+            </div>
+            <div class="help">
+                <ul>
+                    <h3>常见问题</h3>
+                    <li><a href="#">退还保证金</a></li>
+                    <li><a href="#">悔拍怎么办</a></li>
+                    <li><a href="#">如何处理过户</a></li>
+                </ul>
+            </div>
+            <div class="help">
+                <ul>
+                    <h3>关于我们</h3>
+                    <li><a href="#">邮编:610101</a></li>
+                    <li><a href="#">客服专线:123456</a></li>
+                    <li><a href="#">联系地址:四川师范大学</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="others">
+            <ul>
+                <li>京公网安备：1101051611&nbsp;&nbsp;</li>
+                <li>备案号：京ICP备13044676号&nbsp;&nbsp;</li>
+                <li>拍卖平台网络科技股份有限公司</li>
+            </ul>
+        </div>
+    </div>
+</body>
+<html>
